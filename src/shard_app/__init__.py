@@ -6,6 +6,11 @@ def add(left: int, right: int) -> int:
     return left + right
 
 
+def subtract(left: int, right: int) -> int:
+    """Return the difference of two integers."""
+    return left - right
+
+
 def clamp(value: float, low: float, high: float) -> float:
     """Return value bounded to the inclusive [low, high] range."""
     return max(low, min(high, value))
