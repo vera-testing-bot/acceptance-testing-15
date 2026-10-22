@@ -12,3 +12,4 @@ shards start from an identical commit.
 `main` is cleaned in place before every run — issues and pull requests are
 closed and non-default branches are deleted. Do not keep anything here you
 would miss.
+
